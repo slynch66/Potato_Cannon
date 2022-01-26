@@ -10,14 +10,24 @@
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Cannon-Planning.jpg" width = 500 height = 700\>
 
-Need to add a picture of a sketch that goes more in depth to the ignition system.
-reference: https://www.youtube.com/watch?v=FGH7GfNSSic
-
 ### Materials
 
-reference: https://www.artofmanliness.com/skills/how-to/how-to-make-a-potato-cannon/
+4" PVC pipe cut to 18 inches long
+4" PVC threaded coupler
+4" PVC cleanout cap
+4" to 2" PVC adapter
+2" PVC pipe cut to 3 feet long
+1" PVC pipe cut to 4 inches for the sparker
+
+PVC primer
+PVC cement
+
+Manual grill sparker
 
 ### Payload/Testing
+
+#### Achieving maximum power
+
   - firing tennis balls at first to test optimum hairspray amount in seconds
   - raspberry pi job (taking pictures/video)
   - raspberry pi protective capsule
