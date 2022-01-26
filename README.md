@@ -19,6 +19,8 @@
 2" PVC pipe cut to 3 feet long
 1" PVC pipe cut to 4 inches for the sparker
 
+Ramrod of some sort
+
 PVC primer
 PVC cement
 
@@ -28,6 +30,10 @@ Manual grill sparker
 
 #### Achieving maximum power
 
-  - firing tennis balls at first to test optimum hairspray amount in seconds
-  - raspberry pi job (taking pictures/video)
-  - raspberry pi protective capsule
+At first we'll need to test the optimum number of seconds to spray hairspray in the combustion chamber. What number of seconds will generate maximum combustion and force behind the potato/raspberrypi?
+
+More hairspray doesn't always mean more power, because the energy equation is  'more energy = more air + more fuel' and with more hairspray, eventually not all of it will combust due to a lack of air. In order to test how many seconds generates the most speed and force of the pi in the sky, we will use a stopwatch and track the time it takes for the projectile to travel a set distance.
+
+#### What will the Raspberry Pi do?
+
+The raspberry pi will either take a video from the perspective of the projectile or it will measure acceleration values. This will depend on the protective capsule surrounding the raspberry pi and whether the camera will be able to see through the capsule or not. If the protective capsule turns out to be opaque, the pi will measure acceleration values as it is fired.
