@@ -6,11 +6,11 @@
 
 ## Planning
 
-### Design + How it works
+### *Design + How it works
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Cannon-Planning.jpg" width = 500 height = 700\>
 
-### Materials
+### *Materials
 
 4" PVC pipe cut to 18 inches long
 4" PVC threaded coupler
@@ -26,7 +26,7 @@ PVC cement
 
 Manual grill sparker
 
-### Payload/Testing
+### *Payload/Testing
 
 #### Achieving maximum power
 
@@ -34,11 +34,11 @@ At first we'll need to test the optimum number of seconds to spray hairspray in 
 
 More hairspray doesn't always mean more power, because the energy equation is  'more energy = more air + more fuel' and with more hairspray, eventually not all of it will combust due to a lack of air. In order to test how many seconds generates the most speed and force of the pi in the sky, we will use a stopwatch and track the time it takes for the projectile to travel a set distance.
 
-### What will the Raspberry Pi do?
+### *What will the Raspberry Pi do?
 
 The pi will measure acceleration values as it is fired and travels through the air. The raspberry pi will be in a projectile that is cylindrical in shape, because the pi is longer than the barrel diameter, but not as wide as the barrel diameter.
 
-### <span style="color:red">Timeline</span>
+### *Timeline - 6 Weeks
 
 #### First two weeks
 
