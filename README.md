@@ -6,7 +6,7 @@
 
 ## Planning
 
-### ___Design + How it works___
+### **Design + How it works**
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Cannon-Planning.jpg" width = 500 height = 700\>
 
