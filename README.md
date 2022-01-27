@@ -6,11 +6,11 @@
 
 ## Planning
 
-### *Design + How it works
+### ___Design + How it works___
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Cannon-Planning.jpg" width = 500 height = 700\>
 
-### *Materials
+### *Materials*
 
 4" PVC pipe cut to 18 inches long
 4" PVC threaded coupler
