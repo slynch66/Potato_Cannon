@@ -40,13 +40,21 @@ The pi will measure acceleration values as it is fired and travels through the a
 
 ### Timeline - 6 Weeks
 
-First two weeks
-        1. Build the cannon 
-        2. Build the ignition mechanism
-              - Make sure after the hole(s) is drilled for the sparker wire(s) that the hole is effectively sealed so that the force created in the combustion chamber doesn't                   exit out of the "sealed" ignition hole.
-Second two weeks
-        3. Test for the optimum amount of hairspray.
-        4. Design and build a projectile to encase and protect the raspberry pi as it is fired from the cannon.
-Third two weeks
-        5. Test the raspberry pi with the projectile to collect acceleration values
-        6. Find ways to make the design better to increase accuracy, velocity, etc.
+#### First two weeks
+
+   1. Build the cannon 
+  
+   2. Build the ignition mechanism
+         - Make sure after the hole(s) is drilled for the sparker wire(s) that the hole is effectively sealed so that the force created in the combustion chamber doesn't                   exit out of the "sealed" ignition hole.
+
+#### Second two weeks
+        
+   3. Test for the optimum amount of hairspray.
+        
+   4. Design and build a projectile to encase and protect the raspberry pi as it is fired from the cannon.
+
+#### Third two weeks
+     
+   5. Test the raspberry pi with the projectile to collect acceleration values
+        
+   6. Find ways to make the design better to increase accuracy, velocity, etc.
