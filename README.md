@@ -38,7 +38,7 @@ More hairspray doesn't always mean more power, because the energy equation is  '
 
 The pi will measure acceleration values as it is fired and travels through the air. The raspberry pi will be in a projectile that is cylindrical in shape, because the pi is longer than the barrel diameter, but not as wide as the barrel diameter.
 
-### Timeline - 6 Weeks
+### <span style="color:red">Timeline</span>
 
 #### First two weeks
 
