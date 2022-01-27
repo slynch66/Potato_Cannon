@@ -34,6 +34,19 @@ At first we'll need to test the optimum number of seconds to spray hairspray in 
 
 More hairspray doesn't always mean more power, because the energy equation is  'more energy = more air + more fuel' and with more hairspray, eventually not all of it will combust due to a lack of air. In order to test how many seconds generates the most speed and force of the pi in the sky, we will use a stopwatch and track the time it takes for the projectile to travel a set distance.
 
-#### What will the Raspberry Pi do?
+### What will the Raspberry Pi do?
 
-The raspberry pi will either take a video from the perspective of the projectile or it will measure acceleration values. This will depend on the protective capsule surrounding the raspberry pi and whether the camera will be able to see through the capsule or not. If the protective capsule turns out to be opaque, the pi will measure acceleration values as it is fired.
+The pi will measure acceleration values as it is fired and travels through the air. The raspberry pi will be in a projectile that is cylindrical in shape, because the pi is longer than the barrel diameter, but not as wide as the barrel diameter.
+
+### Timeline - 6 Weeks
+
+First two weeks
+        1. Build the cannon 
+        2. Build the ignition mechanism
+              - Make sure after the hole(s) is drilled for the sparker wire(s) that the hole is effectively sealed so that the force created in the combustion chamber doesn't                   exit out of the "sealed" ignition hole.
+Second two weeks
+        3. Test for the optimum amount of hairspray.
+        4. Design and build a projectile to encase and protect the raspberry pi as it is fired from the cannon.
+Third two weeks
+        5. Test the raspberry pi with the projectile to collect acceleration values
+        6. Find ways to make the design better to increase accuracy, velocity, etc.
