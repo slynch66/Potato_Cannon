@@ -1,12 +1,16 @@
 import time
 import Adafruit_LSM303
 import Adafruit_GPIO.SPI as SPI
-import Adafruit_SSD1306
+import RPi.GPIO as GPIO
 
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
+# Declaring the button pin
+button_pin = 17
 
+# Suppress warnings
+GPIO.setwarnings(False)
+
+# Use "GPIO" pin numbering
+GPIO.setmode(GPIO.BCM)
 
 # Raspberry Pi pin configuration:
 RST = 24
@@ -17,9 +21,7 @@ SPI_DEVICE = 0
 lsm303 = Adafruit_LSM303.LSM303()
 
 # Need code for a button to start this program
-
-while True:
-    
+def launch_sequence():
     time.sleep(15) # sleep for 15 seconds in order to allow time for the shell to be sealed, and the potato cannon to be primed to fire
     
     # Read the X, Y, Z axis acceleration values.
@@ -31,4 +33,6 @@ while True:
     # Organize the X Y and Z readings into lists that go into a dataset, which is a .csv file
  
 
-
+if GPIO.input(button_pin)== True:
+    
+    
