@@ -10,6 +10,8 @@
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Cannon-Planning.jpg" width = 500 height = 700\>
 
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/potato-cannon-circuit-planning.jpg" width = 500 height = 700\>
+
 ### Materials
 
 4" PVC pipe cut to 18 inches long
