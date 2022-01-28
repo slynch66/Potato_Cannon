@@ -50,8 +50,6 @@ The pi will measure acceleration values as it is fired and travels through the a
 
 Picture of pseudocode goes here
 
-link to full code .py file
-
 ---
 
 ### Timeline - 6 Weeks
