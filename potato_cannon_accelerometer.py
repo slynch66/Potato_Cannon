@@ -23,7 +23,7 @@ lsm303 = Adafruit_LSM303.LSM303()
 # this is the code that will run once the button is pressed
 def on_the_clock():
     
-    # sleep for 15 seconds in order to allow time for the shell to be sealed, and the potato cannon to be primed to fire
+    # sleep for 15 seconds in order to allow time for the shell to be sealed, loaded into the cannon, and the potato cannon to be primed to fire
     time.sleep(15)
     
     # max_time is the number of seconds of duration for the timer on line 39
