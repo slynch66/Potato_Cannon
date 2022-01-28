@@ -46,6 +46,14 @@ The pi will measure acceleration values as it is fired and travels through the a
 
 ---
 
+### Code
+
+Picture of pseudocode goes here
+
+link to full code .py file
+
+---
+
 ### Timeline - 6 Weeks
 
 #### First two weeks
@@ -59,7 +67,7 @@ The pi will measure acceleration values as it is fired and travels through the a
         
    3. Test for the optimum amount of hairspray.
         
-   4. Design and build a projectile to encase and protect the raspberry pi as it is fired from the cannon.
+   4. Design and build a shell to encase the raspberry pi as it is fired from the cannon and protect it from impact
 
 #### Third two weeks
      
