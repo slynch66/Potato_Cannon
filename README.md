@@ -46,9 +46,9 @@ The pi will measure acceleration values as it is fired and travels through the a
 
 ---
 
-### Code
+### Pseudocode
 
-Picture of pseudocode goes here
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/Potato-Cannon-Pseudocode.jpg" width = 500 height = 700\>
 
 ---
 
