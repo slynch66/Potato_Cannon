@@ -72,3 +72,13 @@ The pi will measure acceleration values as it is fired and travels through the a
    5. Test the raspberry pi with the projectile to collect acceleration values
         
    6. Find ways to make the design better to increase accuracy, velocity, etc.
+
+---
+
+### Risk Mitigation
+
+Safety Test Plan -->   First of all, we need to make sure the potato cannon won't explode when it's fired. For the first few tests, we will fire the potato cannon from a distance of at least 15 feet with an obstacl between us and the cannon, until we can be sure of its structural integrity while using increasing amounts of hairspray. For the rest of the tests when we're operating the cannon as it is fired, we will not differ from using the amount of hairspray that was safely tested from a distance.
+   
+   We will wear safety glasses when we fire the potato cannon, and we'll only fire it outside (obviously) with some open space. For example, we could test it on the field next to the baseball field. We would aim at things with a background of the hill towards Melbourne.
+   
+   The hairspray will either be transported to and from school, or it will be stored in a secure place at school so that only we can fire it, and no one can just "try it" during the day.
