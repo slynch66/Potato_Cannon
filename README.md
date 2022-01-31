@@ -54,30 +54,34 @@ The pi will measure acceleration values as it is fired and travels through the a
 
 ### Timeline - 6 Weeks
 
-#### First two weeks
+#### First two weeks (2/1/22 - 2/15/22)
 
    1. Build the cannon 
   
    2. Build the ignition mechanism
          - Make sure after the hole(s) is drilled for the sparker wire(s) that the hole is effectively sealed so that the force created in the combustion chamber doesn't                   exit out of the "sealed" ignition hole.
 
-#### Second two weeks
+#### Second two weeks (2/17/22 - 3/3/22)
         
    3. Test for the optimum amount of hairspray.
         
    4. Design and build a shell to encase the raspberry pi as it is fired from the cannon and protect it from impact
 
-#### Third two weeks
+#### Third two weeks (3/4/22 - 3/18/22)
      
-   5. Test the raspberry pi with the projectile to collect acceleration values
+   5. Test the raspberry pi with the projectile to collect acceleration values and complete the project requirements
         
    6. Find ways to make the design better to increase accuracy, velocity, etc.
 
+#### Post-Project
+   
+   After finishing the Potato Cannon project, we would build off of what we learned to make a mortar launcher tube. We would build it to shoot like tennis balls or potatoes or something, and you would be able to change the angle of the tube and the force of the launch to hit different distance targets.
+   
 ---
 
 ### Risk Mitigation
 
-Safety Test Plan -->   First of all, we need to make sure the potato cannon won't explode when it's fired. For the first few tests, we will fire the potato cannon from a distance of at least 15 feet with an obstacl between us and the cannon, until we can be sure of its structural integrity while using increasing amounts of hairspray. For the rest of the tests when we're operating the cannon as it is fired, we will not differ from using the amount of hairspray that was safely tested from a distance.
+Safety Test Plan -->   First of all, we need to make sure the potato cannon won't explode when it's fired. For the first few tests, we will fire the potato cannon from a distance of at least 15 feet with an obstacle between us and the cannon, until we can be sure of its structural integrity while using increasing amounts of hairspray. For the rest of the tests when we're operating the cannon as it is fired, we will not differ from using the amount of hairspray that was safely tested from a distance.
    
    We will wear safety glasses when we fire the potato cannon, and we'll only fire it outside (obviously) with some open space. For example, we could test it on the field next to the baseball field. We would aim at things with a background of the hill towards Melbourne.
    
