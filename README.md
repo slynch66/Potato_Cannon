@@ -86,3 +86,12 @@ Safety Test Plan -->   First of all, we need to make sure the potato cannon won'
    We will wear safety glasses when we fire the potato cannon, and we'll only fire it outside (obviously) with some open space. For example, we could test it on the field next to the baseball field. We would aim at things with a background of the hill towards Melbourne.
    
    The hairspray will either be transported to and from school, or it will be stored in a secure place at school so that only we can fire it, and no one can just "try it" during the day.
+
+---
+
+### 2/3/22
+
+PVC pipe schedule 40 whether the inside is solid wall or cellulose core will withstand the pressures of the potato cannon.
+
+Mr Dierolf has a powerful BBQ grill sparker that we can use for the potato cannon. We will drill two small holes for the power/ground wires from the sparker, spaced a half-inch (or slightly less) apart. The wires have diameters of 4mm, and any tiny gaps with the wires in the holes can be filled with a regular sealant like caulk or silicone.
+
