@@ -95,3 +95,8 @@ PVC pipe schedule 40 whether the inside is solid wall or cellulose core will wit
 
 Mr Dierolf has a powerful BBQ grill sparker that we can use for the potato cannon. We will drill two small holes for the power/ground wires from the sparker, spaced a half-inch (or slightly less) apart. The wires have diameters of 4mm, and any tiny gaps with the wires in the holes can be filled with a regular sealant like caulk or silicone.
 
+### 2/6/22 Testing
+
+I brought the cannon home over the weekend and finished putting it together. At first I didn’t spray enough hairspray (I was doing about 2-3 seconds worth), and then I used around 5 seconds worth of hairspray and I sounded like a rocket launch.
+
+![at-home-test-gif](https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/under25MBatHomeTest.gif)
