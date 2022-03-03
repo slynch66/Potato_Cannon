@@ -36,7 +36,7 @@ while True:
       # Grab the X, Y, Z components from the reading and input them into the .csv file
       accel_x, accel_y, accel_z = accel
 
-      print("accelx = " + accel_x + ";  accely = " + accel_y + "; accelz = " + accel_z)
+      print("accelx = " + str(accel_x) + ";  accely = " + str(accel_y) + "; accelz = " + str(accel_z))
       
       counter = counter + 1
 pause()
