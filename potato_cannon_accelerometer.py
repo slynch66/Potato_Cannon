@@ -2,15 +2,16 @@ import time
 import Adafruit_LSM303
 import Adafruit_GPIO.SPI as SPI
 import RPi.GPIO as GPIO
+from gpiozero import Button
 
 # Declaring the button pin on pin 17
-button_pin = 17
+button = Button(17)
 
 # Suppress warnings
 GPIO.setwarnings(False)
 
 # Use "GPIO" pin numbering
-GPIO.setmode(GPIO.BCM)
+#GPIO.setmode(GPIO.BCM)
 
 # Raspberry Pi pin configuration:
 RST = 24
@@ -51,7 +52,7 @@ def on_the_clock():
  
 
 # When the button is pressed it will activate the program
-if GPIO.input(button_pin)== True:
+if button.is_pressed:
     on_the_clock()
     
 # as a github entry or reflection, I can review source #3 and explain how I created a timer using lines 30, 33, and 39
