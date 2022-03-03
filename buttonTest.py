@@ -1,14 +1,7 @@
-import Adafruit_GPIO.SPI as SPI
-import RPi.GPIO as GPIO
+from gpiozero import Button
 
 # Declaring the button pin on pin 17
-button_pin = 17
+button = Button(17)
 
-# Suppress warnings
-GPIO.setwarnings(False)
-
-# Use "GPIO" pin numbering
-GPIO.setmode(GPIO.BCM)
-
-if GPIO.input(button_pin)== True:
+if button.is_pressed:
   print("The button code works!")
