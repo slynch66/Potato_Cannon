@@ -57,7 +57,8 @@ def on_the_clock():
 # When the button is pressed it will activate the program
 while True:
   if button.is_pressed:
-        on_the_clock()
+    print("The button code works!")
+    on_the_clock()
     
 # as a github entry or reflection, I can review source #3 and explain how I created a timer using lines 30, 33, and 39
 
