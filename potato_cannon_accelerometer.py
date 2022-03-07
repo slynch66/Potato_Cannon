@@ -21,6 +21,8 @@ SPI_PORT = 0
 SPI_DEVICE = 0
 lsm303 = Adafruit_LSM303.LSM303()
 
+justOnce = 0
+
 # this is the code that will run once the button is pressed
 def on_the_clock():
     
@@ -36,22 +38,24 @@ def on_the_clock():
     # Organizes the X Y and Z readings into lists that go into a new .csv file, which is a dataset
     with open("accel_data.csv", "a") as log:
         
-        # writes the titles to the columns
-        log.write("{0},{1},{2}\n".format("accel_x", "accel_y", "accel_z"))
-        
-        # the code in this while loop will run until it reaches the number of seconds have gone by for the max_time variable
-        while (time.time() - start_time) < max_time:
-        
-            # Read the X, Y, Z axis acceleration values.
-            accel, mag = lsm303.read()
-            
-             # Grab the X, Y, Z components from the reading and input them into the .csv file
-            accel_x, accel_y, accel_z = accel
-            log.write("{0},{1},{2}\n".format(accel_x, accel_y, accel_z))
-            
-            # delay a quarter of a second before recording another reading
-            time.sleep(.25)
+        if justOnce == 0:
+            # writes the titles to the columns
+            log.write("{0},{1},{2}\n".format("accel_x", "accel_y", "accel_z"))
 
+            # the code in this while loop will run until it reaches the number of seconds have gone by for the max_time variable
+            while (time.time() - start_time) < max_time:
+
+                # Read the X, Y, Z axis acceleration values.
+                accel, mag = lsm303.read()
+
+                 # Grab the X, Y, Z components from the reading and input them into the .csv file
+                accel_x, accel_y, accel_z = accel
+                log.write("{0},{1},{2}\n".format(accel_x, accel_y, accel_z))
+
+                # delay a quarter of a second before recording another reading
+                time.sleep(.25)
+            justOnce = justOnce + 1
+            print("justOnce fixed it!")
  
 
 # When the button is pressed it will activate the program
