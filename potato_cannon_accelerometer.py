@@ -21,11 +21,10 @@ SPI_PORT = 0
 SPI_DEVICE = 0
 lsm303 = Adafruit_LSM303.LSM303()
 
+justOnce = 0
 
 # this is the code that will run once the button is pressed
 def on_the_clock():
-    
-    justOnce = 0
     
     # sleep for 15 seconds in order to allow time for the shell to be sealed, loaded into the cannon, and the potato cannon to be primed to fire
     time.sleep(15)
@@ -59,11 +58,12 @@ def on_the_clock():
             print("justOnce fixed it!")
  
 
-# When the button is pressed it will activate the program
-if button.is_pressed:
-    print("The button code works!")
-    on_the_clock()
-    
+# When the button is pressed it will activate the program, only once.
+while(justOnce == 0):
+    if button.is_pressed:
+        print("The button code works!")
+        on_the_clock()
+        justOnce = 1
 # as a github entry or reflection, I can review source #3 and explain how I created a timer using lines 30, 33, and 39
 
 # as another github entry or reflection, I can review source #2 and explain how I created a table of values using lines 36 and 46 of my code
