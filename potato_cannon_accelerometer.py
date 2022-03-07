@@ -54,8 +54,6 @@ def on_the_clock():
 
                 # delay a quarter of a second before recording another reading
                 time.sleep(.25)
-            justOnce = justOnce + 1
-            print("justOnce fixed it!")
  
 
 # When the button is pressed it will activate the program, only once.
@@ -64,6 +62,7 @@ while(justOnce == 0):
         print("The button code works!")
         on_the_clock()
         justOnce = 1
+        print("justOnce fixed it!")
 # as a github entry or reflection, I can review source #3 and explain how I created a timer using lines 30, 33, and 39
 
 # as another github entry or reflection, I can review source #2 and explain how I created a table of values using lines 36 and 46 of my code
