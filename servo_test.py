@@ -4,8 +4,8 @@ from time import sleep
 GPIO.setmode(GPIO.BOARD)
 
 # these two lines set the servo pin as pin 3 
-GPIO.setup(03, GPIO.OUT) 
-pwm=GPIO.PWM(03, 50)
+GPIO.setup(23, GPIO.OUT) 
+pwm=GPIO.PWM(23, 50)
 
 # this makes sure it doesn't set any angles on startup
 pwm.start(0)
