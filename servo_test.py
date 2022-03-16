@@ -16,10 +16,10 @@ def setup():
 def setDirection(direction):
     duty = a / 180 * direction + b
     pwm.ChangeDutyCycle(duty)
-    print "direction =", direction, "-> duty =", duty
+    print ("direction =", direction, "-> duty =", duty)
     time.sleep(1) # allow to settle
    
-print "starting"
+print ("starting")
 setup()
 for direction in range(0, 181, 10):
     setDirection(direction)
@@ -27,4 +27,4 @@ direction = 0
 setDirection(0)    
 setDirection(90)
 GPIO.cleanup() 
-print "done"
+print ("done")
