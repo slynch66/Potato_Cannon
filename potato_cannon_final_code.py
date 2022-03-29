@@ -36,17 +36,17 @@ def on_the_clock():
     time.sleep(15)
     
     # max_time is the number of seconds of duration for the timer on line 39
-    max_time = 4
+    max_time = 5
     
     # this line activates the timer by recording a start time
     start_time = time.time()
     
     # Organizes the X Y and Z readings into lists that go into a new .csv file, which is a dataset
-    with open("accel_data.csv", "a") as log:
+    with open("accel_altim_data.csv", "a") as log:
         
         if justOnce == 0:
             # writes the titles to the columns
-            log.write("{0},{1},{2}\n".format("accel_x", "accel_y", "accel_z", "altitude"))
+            log.write("{0},{1},{2},{3}\n".format("accel_x", "accel_y", "accel_z", "altitude"))
 
             # the code in this while loop will run until it reaches the number of seconds have gone by for the max_time variable
             while (time.time() - start_time) < max_time:

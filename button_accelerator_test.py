@@ -20,7 +20,8 @@ RST = 24
 DC = 23
 SPI_PORT = 0
 SPI_DEVICE = 0
-lsm303 = Adafruit_LSM303.LSM303()
+#lsm303 = Adafruit_LSM303.LSM303()
+lsm303 = LSM303()
 
 counter = 0
 
