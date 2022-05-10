@@ -1,27 +1,17 @@
 import RPi.GPIO as GPIO
 import time
 
-P_SERVO = 22 # adapt to your wiring
-fPWM = 50  # Hz (not higher with software PWM)
-a = 10
-b = 2
+servoPIN = 22
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(servoPIN, GPIO.OUT)
 
-def setup():
-    global pwm
-    GPIO.setmode(GPIO.BOARD)
-    GPIO.setup(P_SERVO, GPIO.OUT)
-    pwm = GPIO.PWM(P_SERVO, fPWM)
-    pwm.start(0)
+p = GPIO.PWM(servoPIN, 50) # GPIO 17 for PWM with 50Hz
+p.start(2.5) # Initialization
 
-def setDirection(direction):
-    duty = a / 180 * direction + b
-    pwm.ChangeDutyCycle(duty)
-    print ("direction =", direction, "-> duty =", duty)
-    time.sleep(1) # allow to settle
-   
-print ("starting")
-setup()
-for direction in range(0, 181, 10):
-    setDirection(direction)
-direction = 0    
-setDirection(0)  
+try:
+    p.ChangeDutyCycle(5)
+    time.sleep(0.5)
+
+except KeyboardInterrupt:
+  p.stop()
+  GPIO.cleanup()
