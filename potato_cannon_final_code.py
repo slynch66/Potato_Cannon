@@ -12,11 +12,15 @@ button = Button(17)
 # Suppress warnings
 GPIO.setwarnings(False)
 
-#Servo setup code
-P_SERVO = 22 # adapt to your wiring
-fPWM = 50  # Hz (not higher with software PWM)
-a = 10
-b = 2
+# Servo setup code
+servoPIN = 22
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(servoPIN, GPIO.OUT)
+p = GPIO.PWM(servoPIN, 50) # GPIO 17 for PWM with 50Hz
+p.start(2.5) # Initialization
+
+# When the servo lock button is pressed
+#       Servo lock code goes here
 
 # Raspberry Pi pin configuration:
 RST = 24
