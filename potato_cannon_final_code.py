@@ -12,8 +12,11 @@ button = Button(17)
 # Suppress warnings
 GPIO.setwarnings(False)
 
-# Use "GPIO" pin numbering
-#GPIO.setmode(GPIO.BCM)
+#Servo setup code
+P_SERVO = 22 # adapt to your wiring
+fPWM = 50  # Hz (not higher with software PWM)
+a = 10
+b = 2
 
 # Raspberry Pi pin configuration:
 RST = 24
