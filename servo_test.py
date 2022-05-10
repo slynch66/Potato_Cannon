@@ -1,3 +1,5 @@
+# This will set the double-sided servo horn to perpendicular with the main servo body.
+
 import RPi.GPIO as GPIO
 import time
 
