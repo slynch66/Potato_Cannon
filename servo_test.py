@@ -24,7 +24,4 @@ setup()
 for direction in range(0, 181, 10):
     setDirection(direction)
 direction = 0    
-setDirection(0)    
-setDirection(90)
-GPIO.cleanup() 
-print ("done")
+setDirection(0)  
