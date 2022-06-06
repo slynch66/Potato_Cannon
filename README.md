@@ -131,4 +131,14 @@ When messing with the nose cone, we realized the servo lock mechanism was too bu
 
 The second and final nose cone had a more efficient servo lock mechanism and it was longer than the first version with a length of 4in. This would be enough to store the parachute and its string without having to pack it down very much to fit. If we had to pack it down, the release of the nose cone wouldn't have enough force to deploy the parachute.
 
+When we were packing the parachute into the nose cone, it was really tough because of how long the string was for the parachute. The parachute had 3 loops of string attached, and we shortened each loop by 3 inches. This length still allowed the parachute to deploy, and it was much easier to pack.
+
+### Code development
+
+*Need to input more here.
+
+### Testing in May
+
+With the second and improved shell, we s
+
 Go over testing, having the hole wrong for the pi communication port, and changes we made to the parachute string and cannon itself. Go over project optimization with the length of wait time for the final launch button and the number of seconds of hairspray we used.
