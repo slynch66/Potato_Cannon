@@ -100,3 +100,19 @@ Mr Dierolf has a powerful BBQ grill sparker that we can use for the potato canno
 I brought the cannon home over the weekend and finished putting it together. At first I didn’t spray enough hairspray (I was doing about 2-3 seconds worth), and then I used around 5 seconds worth of hairspray and I sounded like a rocket launch.
 
 ![at-home-test-gif](https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/under25MBatHomeTest.gif)
+
+### First-time CHS Test
+
+We went out to the field and tested the potato cannon using potatoes as projectiles. We measured the speed of the projectiles in feet-per-second, and I believe it was around 80 miles an hour.
+
+### First Potato Cannon Shell
+
+*Need to insert a photo of the shell pieces. 
+
+We finished printing the first model of our potato cannon shell. We went to test the shell out and put a bag of screws and bolts in it. This would simulate the weight of the circuit components. The weight was not secured inside of the shell, and it broke the shell when it was launched. From our first launch we learned that our shell design was too thin and weak in a few areas, and so we beafed it up in our next design. We thickened the outside of the shell and the L-arms that would hold the raspberry pi. We also thickened the arm that would hold the servo.
+
+### Second Potato Cannon Shell
+
+*Need to insert photos of the final shell and shell point with all the components and then have a photo of the first cone design.
+
+Talk about changing the parachute release mechanism.
