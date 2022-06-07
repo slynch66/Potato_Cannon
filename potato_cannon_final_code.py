@@ -42,7 +42,7 @@ def on_the_clock():
     # sleep for 15 seconds in order to allow time for the shell to be sealed, loaded into the cannon, and the potato cannon to be primed to fire
     time.sleep(15)
     
-    # max_time is the number of seconds of duration for the timer on line 39
+    # max_time is the number of seconds of duration for the timer
     max_time = 5
     
     # this line activates the timer by recording a start time
@@ -55,7 +55,8 @@ def on_the_clock():
             # writes the titles to the columns
             log.write("{0},{1},{2},{3}\n".format("accel_x", "accel_y", "accel_z", "altitude"))
 
-            # the code in this while loop will run until it reaches the number of seconds have gone by for the max_time variable
+            # This is the main timer. The code in this while loop will run until it reaches the 
+            # number of seconds defined by line 46
             while (time.time() - start_time) < max_time:
 
                 # Read the X, Y, Z axis acceleration values.
