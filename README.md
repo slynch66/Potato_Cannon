@@ -131,10 +131,34 @@ When we were packing the parachute into the nose cone, it was really tough becau
 
 ### Code development
 
-*Need to input more here.
+[Commented final code](https://github.com/slynch66/Potato_Cannon/blob/main/potato_cannon_final_code.py)
+
+#### Timer code explanation
+
+One part of the code was that we ran a 5 second timer while we took data with the accelerometer. 
+
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/timer-screenshot.png">
+
+After we inserted all the circuit components into the shell body, we realized the hole I designed in the shell to give access to the pi plug-in was in the wrong place.  I put the hole over the power port of the pi, not the communication port. To fix it we cut the hole to be slightly larger so we could plug in to the communication port.00
+
+While getting our pi to be ready to run the code while on battery power, we had challenges with using a service to automatically start running the code. Mr. Miller helped us get that working.
 
 ### Testing in May
 
-With the second and improved shell, we s
+With the second and improved shell and our code working, we first tested it by tossing the shell over the D-hallway railing. This didn't provide enough force or time for the parachute deployment to be accurately tested. Next, we shot the shell out of the cannon after completely running through the code. We let the servo unlock the nose cone before we launched. First test, the shell and nose cone separate but the parachute doesn't quite deploy. Second test, the parachute deploys succesfully. During none of our tests did any circuit components or 3D printed parts break.
 
-Go over testing, having the hole wrong for the pi communication port, and changes we made to the parachute string and cannon itself. Go over project optimization with the length of wait time for the final launch button and the number of seconds of hairspray we used.
+In the next testing session, we launched the shell out of the cannon a couple of times with the code working, trying to take accelerometer data during flight. During the first two tests, we didn't give enough time after pressing the launch button to get ready for launch. We would press the launch button, and rush to load the shell and propellant. By the time we were ready to fire, the altimeter already finished taking data. So we went inside and changed the delay for the launch button from 15 seconds to 30 seconds.
+
+In our final test session, we launched twice. Both times we successfully took data during flight, but also the parachute didn't quite deploy. So during different tests, we had the parachute deploy a couple times and we took data during flight a couple times. We were not able to take data during flight AND deploy the parachute during our tests.
+
+### Changes to the sparker and the cannon
+
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/sparker-shortcut.gif">
+
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/taped-sparker.jpg">
+
+When we were clicking the sparker inside we would get shocked, so we put electric tape over the area on one of the wires.
+
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/barrel-pin.jpg">
+
+Since the shell was just small enough to easily slide up and down the barrel, we needed to add a wire from a clothes-hanger to stop the shell from falling into the combustion chamber. Notice the brown electrical tape covering the sharp ends of the wire.
