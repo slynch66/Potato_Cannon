@@ -151,6 +151,8 @@ In the next testing session, we launched the shell out of the cannon a couple of
 
 In our final test session, we launched twice. Both times we successfully took data during flight, but also the parachute didn't quite deploy. So during different tests, we had the parachute deploy a couple times and we took data during flight a couple times. We were not able to take data during flight AND deploy the parachute during our tests.
 
+[Accelerometer and altimeter data taken during last flight](https://github.com/slynch66/Potato_Cannon/blob/main/accel_altim_data.csv)
+
 ### Changes to the sparker and the cannon
 
 <img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/sparker-shortcut.gif"  width = 500  height = 700/>
