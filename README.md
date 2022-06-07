@@ -153,12 +153,12 @@ In our final test session, we launched twice. Both times we successfully took da
 
 ### Changes to the sparker and the cannon
 
-<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/sparker-shortcut.gif">
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/sparker-shortcut.gif"  width = 500  height = 700/>
 
-<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/taped-sparker.jpg">
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/taped-sparker.jpg"  width = 500  height = 700/>
 
 When we were clicking the sparker inside we would get shocked, so we put electric tape over the area on one of the wires.
 
-<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/barrel-pin.jpg">
+<img src="https://raw.githubusercontent.com/slynch66/Potato_Cannon/main/Images/barrel-pin.jpg"  width = 500  height = 700/>
 
 Since the shell was just small enough to easily slide up and down the barrel, we needed to add a wire from a clothes-hanger to stop the shell from falling into the combustion chamber. Notice the brown electrical tape covering the sharp ends of the wire.
